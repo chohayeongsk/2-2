@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>할 일 목록</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>할 일 목록</h1>
+    <input type="text" id="taskInput" placeholder="할 일 추가">
+    <button onclick="addTask()">추가</button>
+    <ul id="taskList"></ul>
+
+    <!-- 메모 인터페이스 -->
+    <div id="memoInterface" style="display: none;">
+        <h2>메모 추가</h2>
+        <textarea id="memoText"></textarea>
+        <button onclick="addMemo()">메모 저장</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
